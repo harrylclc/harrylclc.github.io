@@ -15,6 +15,18 @@ span.venue {
     font-size: 13pt;
 }
 
+span.title-sm {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0033cc;
+    font-size: 11pt;
+}
+
+span.venue-sm {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cc3300;
+    font-size: 11pt;
+}
+
 #news {
     max-height: 170px;
 }

@@ -15,50 +15,63 @@
 </head>
 
 <body>
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<!-- navbar -->
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
   <div class="container">
-    <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Chen Liang</a>
+      <a class="navbar-brand" href="#">Chen Liang</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pubs.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proj.html">Projects</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="https://scholar.google.com/citations?user=pFbC3pEAAAAJ&hl=en">
+            <i class="ai ai-google-scholar-square ai-lg"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/harrylclc"><i class="fa fa-github fa-lg"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/liangc09"><i class="fa fa-linkedin fa-lg"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/Harrylclc"><i class="fa fa-twitter fa-lg"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://weibo.com/u/1937809834"><i class="fa fa-weibo fa-lg"></i></a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <!-- <li><a href="#">Home</a> -->
-        <li><a href="#">Home</a></li>
-        <li><a href="pubs.html">Publications</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://scholar.google.com/citations?user=pFbC3pEAAAAJ&hl=en">
-          <i class="ai ai-google-scholar-square ai-lg"></i>
-          </a></li>
-        <li><a href="https://github.com/harrylclc"><i class="fa fa-github fa-lg"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/liangc09"><i class="fa fa-linkedin fa-lg"></i></a></li>
-        <li><a href="https://twitter.com/Harrylclc"><i class="fa fa-twitter fa-lg"></i></a></li>
-        <li><a href="http://weibo.com/u/1937809834"><i class="fa fa-weibo fa-lg"></i></a></li>
-      </ul>
-    </div><!-- /.nav-collapse -->
-  </div><!-- /.container -->
-</div><!-- /.navbar -->
+</nav>
 
 <div class="container">
-<div class="row-fluid">
+<div class="row align-items-center">
 <div class="col-md-2">
-    <p><img src="assets/liang_chen.jpg" height=200/> </p>
+  <img src="assets/liang_chen.jpg" class="image-fluid" style="width:100%"/>
 </div>
 
 <div class="col-md-4">
     <p>
-        <h1 >Chen Liang</h1>
+        <h2 >Chen Liang</h2>
         Ph.D. Candidate<br>
         <a href="http://www.ist.psu.edu/">College of Information Sciences and Technology</a><br>
         <a href="http://www.psu.edu/">The Pennsylvania State University</a><br>
         Email: cul226 at ist dot psu dot edu<br>
-        Office: 313D IST Building<br>
+        Office: E356 Westgate Building<br>
         [<a href="http://www.personal.psu.edu/cul226/files/cv.pdf">Curriculum Vitae</a>]
     </p>
 </div>
@@ -74,8 +87,6 @@
   	</ul>
   </div>
 </div>
-
-
 </div><!--row-->
 </div>
 
@@ -84,32 +95,47 @@
 <div class="container">
 <!-- Short bio -->
 
-<p>
+<div class="paragraphs">
 I'm a fifth-year Ph.D. student at the College of Information Sciences and Technology, Pennsylvania State University, working with Prof. <a href="http://clgiles.ist.psu.edu/">C. Lee Giles</a>. Before joining Penn State, I received my Bachelor degree from <a href="http://www.tsinghua.edu.cn/publish/csen/">Department of Computer Science and Technology</a> at <a href="http://www.tsinghua.edu.cn/publish/then/">Tsinghua University</a> in 2013.
-</p>
-<p>
+<br>
 My research interests lie in natural language processing and machine learning. During my Ph.D. study, I develop NLP/ML methods for building educational applications.
-Specifically, I work on computer-facilitated book creation, concept prerequisite learning, and fill-in-the-blank question generation.
-</p>
+Specifically, I work on computer-facilitated book creation, concept prerequisite learning, and fill-in-the-blank question generation. Please check out these <a href="proj.html">projects</a> to learn more.
+</div>
 
 <hr>
 
 <!-- Education -->
-<h3 id="edu">Education</h3>
+<!-- <h3 id="edu">Education</h3>
+<div class="row align-items-center">
 
-<p>
-    <b>College of Information Sciences and Technology, Pennsylvania State University </b><br />
-    <em>Aug 2013 - Present</em><br />
+  <div class="col-md-10">
+    <b>College of Information Sciences and Technology, Pennsylvania State University </b>
+    <br>
+    <em>Aug 2013 - Present</em>
+    <br>
     Ph.D. student
-</p>
+  </div>
+  <div class="col-md-2">
+  <img src="assets/psu.png" class="img-fluid " style="width:75%"/>
+  </div>
+</div>
 
-<p>
-    <b>Department of Computer Science and Technology, Tsinghua University </b><br />
-    <em>Aug 2009 - Jul 2013</em><br />
+<div class="row align-items-center">
+
+  <div class="col-md-10">
+    <b>Department of Computer Science and Technology, Tsinghua University </b>
+    <br>
+    <em>Aug 2009 - Jul 2013</em>
+    <br>
     Bachelor of Engineering, Computer Science
-</p>
+  </div>
+  <div class="col-md-2">
+    <img src="assets/tsinghua.png" class="img-fluid" style="width:75%"/>
+  </div>
+  <hr>
+</div> -->
 
-<hr>
+
 
 
 <!-- Publication -->
@@ -118,68 +144,68 @@ Specifically, I work on computer-facilitated book creation, concept prerequisite
 
 <li>
 <span class="title"><a href="https://arxiv.org/abs/1801.06481">Active Learning of Strict Partial Orders: A Case Study on Concept Prerequisite Relations</a></span>
-</br>
+<br>
 <b>Chen Liang</b>, Jianbo Ye, Han Zhao, Bart Pursel, and C. Lee Giles
-</br>
+<br>
 arXiv:1801.06481 [cs.LG], January 2018
 </li>
 
 <li>
 <span class="venue">[EAAI]</span>
 <span class="title"><a href="files/eaai18_active.pdf">Investigating Active Learning for Concept Prerequisite Learning</a></span>
-</br>
+<br>
 <b>Chen Liang</b>, Jianbo Ye, Shuting Wang, Bart Pursel, and C. Lee Giles
 
-</br>
+<br>
 In <i>the 8th Symposium on Educational Advances in Artificial Intelligence</i>, 2018. (Oral presentation)
-</br>
+<br>
 [<a href="files/eaai18_slides.pdf">Slides</a>]
 </li>
 
 <li>
   <span class="venue">[K-CAP]</span>
   <span class="title"><a href="files/kcap17_distractor.pdf">Distractor Generation with Generative Adversarial Nets for Automatically Creating Fill-in-the-blank Questions</a></span>
-</br>
+<br>
 <b>Chen Liang</b>, Xiao Yang, Drew Wham, Bart Pursel, Rebecca Passonneau and C. Lee Giles
-</br>
+<br>
 In <i>Proceedings of the Ninth International Conference on Knowledge Capture</i>, 2017.
-</br>
+<br>
 [<a href="files/kcap17_distractor_poster.pdf">Poster</a>]
 </li>
 
 <li>
 <span class="venue">[EAAI]</span>
 <span class="title"><a href="files/eaai2017_cpr-recover.pdf">Recovering Concept Prerequisite Relations from University Course Dependencies</a></span>
-</br>
+<br>
 <b>Chen Liang</b>, Jianbo Ye, Zhaohui Wu, Bart Pursel, and C. Lee Giles
 
-</br>
+<br>
 In <i>the 7th Symposium on Educational Advances in Artificial Intelligence</i>, 2017. (Oral presentation)
-</br>
+<br>
 [<a href="https://github.com/harrylclc/eaai17-cpr-recover" target='_blank'>Data</a>]
 </li>
 
 <li>
 <span class="venue">[AAAI]</span>
 <span class="title"><a href="files/aaai2016_bbookx.pdf">BBookX: Building Online Open Books for Personalized Learning.</a></span>
-</br>
+<br>
 <b>Chen Liang</b>, Shuting Wang, Zhaohui Wu, Kyle Williams, Bart Pursel, Benjamin Brautigam, Sherwyn Saul, Hannah Williams, Kyle Bowen, and C. Lee Giles.
 
-</br>
+<br>
 In <i>Proceedings of the 30th AAAI Conference on Artificial Intelligence</i>, 2016. (Demo paper)
-</br>
+<br>
 [<a href="https://book.tlt.psu.edu/">Website</a>]
 </li>
 
 <li>
 <span class="venue">[EMNLP]</span>
 <span class="title"><a href="files/emnlp15_prerequisite.pdf">Measuring Prerequisite Relations Among Concepts.</a></span>
-</br>
+<br>
 <b>Chen Liang</b>, Zhaohui Wu, Wenyi Huang, and C. Lee Giles.
 
-</br>
+<br>
 In <i>Proceedings of the Conference on Empirical Methods in Natural Language Processing</i>, 2015.
-</br>
+<br>
 [<a href="https://github.com/harrylclc/RefD-dataset" target='_blank'>Data</a>] [<a href="files/emnlp15_prerequisite_poster.pdf">Poster</a>]
 </li>
 
@@ -204,14 +230,18 @@ In <i>Proceedings of the Conference on Empirical Methods in Natural Language Pro
 
 <h3 id="misc">Misc</h3>
 <ul>
-<li><a href="https://github.com/harrylclc/concept-prerequisite-papers" target='_blank'>A list of papers</a> on concept prerequisite learning, selected from AI/NLP conferences.</li>
-<li>Keyword extraction demo: <a href="http://app.thunlp.org/weibo/index.jsp">Sina  Weibo Keyword</a> (Collaborators: <a href="http://nlp.csai.tsinghua.edu.cn/~lzy/">Zhiyuan Liu</a>, Xinxiong Chen, Jiayu Tang), as of 2013 we have more than 3.5 million registered users.</li>
+<li>
+  I'm maintaining <a href="https://github.com/harrylclc/concept-prerequisite-papers" target='_blank'>a list of papers</a> on concept prerequisite learning, selected from AI/NLP conferences. PRs are welcome!
+</li>
+<li>
+  Keyword extraction demo: <a href="http://app.thunlp.org/weibo/index.jsp">Sina  Weibo Keyword</a> (Collaborators: <a href="http://nlp.csai.tsinghua.edu.cn/~lzy/">Zhiyuan Liu</a>, Xinxiong Chen, Jiayu Tang), as of 2013 we have more than 3.5 million registered users.
+</li>
 </ul>
 
 
 <hr>
 <p>
-Last update: Nov, 2017
+&copy; Chen Liang (Last update: April, 2018)
 </p>
 <script src="http://t1.extreme-dm.com/f.js" id="eXF-liangc09-0" async defer></script>
 </div>
