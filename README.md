@@ -1,19 +1,33 @@
-# Academic Pages
-**Academic Pages is a Github Pages template for academic websites.**
+# Chen Liang's Personal Website
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
+A modern, accessible, and performance-optimized academic personal website built with Jekyll and hosted on GitHub Pages.
 
-# Getting Started
+![Homepage Preview](images/homepage.png "Chen Liang's Homepage")
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+## ✨ Features
 
-See more info at https://academicpages.github.io/
+- **Modern Design**: Clean, professional layout with contemporary typography
+- **Performance Optimized**: Fast loading times with optimized CSS and images
+- **Accessible**: WCAG 2.1 compliant with screen reader support
+- **Responsive**: Mobile-first design that works on all devices
+- **SEO Optimized**: Structured data, meta tags, and sitemap included
+- **Dark Mode Support**: Automatic dark/light mode based on user preference
+
+## 🚀 Performance Optimizations
+
+- CSS and JavaScript minification
+- Image optimization and lazy loading
+- Font loading optimization
+- Critical CSS inlining
+- Resource hints (preconnect, dns-prefetch)
+
+## 🛠️ Technical Stack
+
+- **Static Site Generator**: Jekyll
+- **CSS Preprocessor**: Sass/SCSS
+- **Font**: Inter (modern, readable)
+- **Icons**: Font Awesome
+- **Hosting**: GitHub Pages
 
 ## Running locally
 

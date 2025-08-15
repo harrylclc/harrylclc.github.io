@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Chen Liang's Homepage"
 title_separator          : "-"
 name                     : &name "Chen Liang"
-description              : &description "personal description"
+description              : &description "Senior Staff Research Scientist at Meta specializing in AI and machine learning research"
 url                      : https://harrylclc.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "harrylclc.github.io"
@@ -122,8 +122,8 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
+google_site_verification : "ry7dnkEyGvE-fmoVib0VQlf526Oyk-AMMYbFoqSL8As" # Add your Google Search Console verification code
+bing_site_verification   : # Add your Bing verification code
 alexa_site_verification  :
 yandex_site_verification :
 
@@ -146,9 +146,10 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-V2X2820EV9" # Add your GA4 tracking ID here
+    anonymize_ip         : true
 
 
 # Reading Files
